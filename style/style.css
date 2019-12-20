@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(199, 184, 165);
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+#logo{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;   
+    margin-bottom: 10px;
+}
+.menu{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    float: right;
+    margin-top: 17px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+    opacity: 70%;
+}
+.menu:hover{
+    opacity: 100%;
+    transition: 0.4s;
+    color: #646364;
+    border-bottom: 2px solid whitesmoke;
+}
+#galeria{
+    margin-right: 50px;
+}
+nav{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+header{
+    height: 900px;
+    background-image: url(../img/background1.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: whitesmoke;
+}
+header h1{
+    font-size: 200px;
+    padding-top: 90px;
+    margin-left: 50px;
+    text-shadow: 3px 3px 3px #646364;
+}
+header h2{
+    font-size: 200px;
+    margin-left: 50px;
+    text-shadow: 3px 3px 3px #646364;
+}
+header h3{
+    color: #d9881f;
+    font-size: 170px;
+    margin-left: 50px;
+    text-shadow: 3px 3px 3px #646364;
+    text-decoration: underline;
+}
+article{
+    background-color:rgba(199, 184, 165, 1);
+}
+article h1{
+    text-align: center;
+    margin-top: 130px;
+    color: whitesmoke;
+    font-size: 4vw;
+    text-transform: uppercase;
+}
+article p{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: #646364;
+    font-size: 2vw;
+   max-width: 1500px;
+}
+article p + p{
+    margin-top: 10px;
+    padding-bottom: 150px;
+}
+section{
+    background-color: whitesmoke;
+    background-image: url(../img/background5.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+#img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10vw;
+    background-color: rgb(199, 184, 165);
+    padding: 7px;
+}
+#button{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 290px;
+    margin-right: 4vw;
+    text-decoration: none;
+    color: #646364;
+    font-size: 55px;
+    background-color: rgb(199, 184, 165);
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#button:hover{
+    background-color: #646364;
+    color: rgba(199, 184, 165, 1);
+    border: 5px solid rgba(199, 184, 165, 1) ;
+    transition: 0.3s;
+}
+#contact{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}
+#contact h1{
+    text-align: center;
+    font-size: 4vw;
+    color: rgba(199, 184, 165, 1);
+}
+.article{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.article p{
+    text-align: center;
+    font-size: 3vw;
+    color: whitesmoke;
+}
+
+.social{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#facebook{
+    opacity: 70%;
+}
+#facebook:hover{
+    opacity: 100%;
+    transition: 0.3s;
+}
+#instagram{
+    padding: 0 30px;
+    opacity: 70%;
+}
+#instagram:hover{
+    opacity: 100%;
+    transition: 0.3s;
+}
+#mail{
+    opacity: 70%;
+}
+#mail:hover{
+    transition: 0.3s;
+    opacity: 100%;
+}
+footer p{
+    background-color: #727272;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media(max-width:1920px){
+    #logo{
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .menu{
+        text-transform: uppercase;
+        font-family: 'Roboto Mono', monospace;
+        text-decoration: none;
+        color: whitesmoke;
+        float: right;
+        margin-top: 25px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        letter-spacing: 5px;
+        opacity: 100%;
+    }
+    .menu:hover{
+        transition: 0.4s;
+        color: whitesmoke;
+    }
+    #galeria{
+        margin-right: 50px;
+    }
+    nav{
+        background-color:rgba(255, 255, 255, 0.3);
+    }
+    header{
+        height: 900px;
+        background-image: url(../img/background1.jpg);
+        background-position: center center;
+        background-size: cover;
+        color: whitesmoke;
+    }
+    header h1{
+        font-size: 10vw;
+        padding-top: 90px;
+        margin-left: 50px;
+        text-shadow: 3px 3px 3px #646364;
+    }
+    header h2{
+        font-size: 9vw;
+        margin-left: 50px;
+        text-shadow: 3px 3px 3px #646364;
+    }
+    header h3{
+        color: #d9881f;
+        font-size: 6vw;
+        margin-left: 50px;
+        text-shadow: 3px 3px 3px #646364;
+        text-decoration: underline;
+    }
+    article{
+        background-color:rgba(199, 184, 165, 1);
+    }
+    article h1{
+        text-align: center;
+        margin-top: 130px;
+        color: whitesmoke;
+        font-size: 4vw;
+    }
+    article p{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        margin-top: 100px;
+        color: #646364;
+        font-size: 2vw;
+       max-width: 900px;
+    }
+    article p + p{
+        margin-top: 10px;
+        padding-bottom: 150px;
+    }
+    section{
+        background-color: whitesmoke;
+    }
+    #img{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 10vw;
+            background-color: rgb(199, 184, 165);
+            padding: 7px;
+    }
+    #img:hover{
+        opacity: 100%;
+        transition: 0.4s;
+    }
+    #button{
+        float: right;
+        margin-top: 280px;
+        margin-right: 15vw;
+        text-decoration: none;
+        color: #646364;
+        font-size: 2.5vw;
+        background-color: rgb(199, 184, 165);
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    #button:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    #contact{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: whitesmoke;
+    }
+    #contact h1{
+        text-align: center;
+        font-size: 4vw;
+        color: rgba(199, 184, 165, 1);
+    }
+    .article{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .article p{
+        text-align: center;
+        font-size: 3vw;
+        color: whitesmoke;
+    }
+    .social{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #facebook{
+        opacity: 70%;
+    }
+    #facebook:hover{
+        opacity: 100%;
+        transition: 0.3s;
+    }
+    #instagram{
+        padding: 0 30px;
+        opacity: 70%;
+    }
+    #instagram:hover{
+        opacity: 100%;
+        transition: 0.3s;
+    }
+    #mail{
+        opacity: 70%;
+    }
+    #mail:hover{
+        transition: 0.3s;
+        opacity: 100%;
+    }
+    footer p{
+        background-color: #727272;
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:1500px){
+    header h1{
+        font-size: 12vw;
+        padding-top: 90px;
+        margin-left: 50px;
+        text-shadow: 3px 3px 3px #646364;
+    }
+    header h2{
+        font-size: 11vw;
+        margin-left: 50px;
+        text-shadow: 3px 3px 3px #646364;
+    }
+    header h3{
+        color: #d9881f;
+        font-size: 8vw;
+        margin-left: 50px;
+        text-shadow: 3px 3px 3px #646364;
+        text-decoration: underline;
+    }
+    footer p{
+        font-size: 1.5vw;
+    }
+}
+@media(max-width:1350px){
+    section{
+        text-align: center;
+    }
+    header{
+        background-image: url(../img/background2.jpg);
+    }
+    #img{
+        display:block;
+        padding-top: 50px;
+        background-color: transparent;
+        margin: 0 auto 50px auto;
+        width: 30vw;
+    }
+    #button{
+        display:inline-block;
+        float: none; 
+        font-size: 5vw;
+        margin: 0 auto 50px auto;
+        font-size: 2.5vw;
+    }
+    footer p{
+        font-size: 1.5vw;
+    }
+}
+@media(max-width:1024px){
+    .menu{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    header{
+        background-image: url(../img/background3.jpg);
+    }
+    header h1{
+        text-align: center;
+        padding-top: 150px;
+    
+    }
+    header h2{
+        text-align: center;
+    }
+    header h3{
+        text-align: center;
+    }
+    article h1{
+        font-size: 5.5vw;
+    }
+    article p{
+        font-size: 4vw;
+    }
+    #img{
+        width: 50vw;
+    }
+    #button{
+        font-size: 3vw;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+}
+@media(max-width:768px){
+    header h1{
+        font-size: 16vw;
+    }
+    header h2{
+        font-size: 15vw;
+    }
+    header h3{
+        font-size: 11vw;
+    }
+    footer p{
+        font-size: 2.5vw;
+    }
+    #contact h1{
+        text-align: center;
+        font-size: 7vw;
+        color: rgba(199, 184, 165, 1);
+    }
+    .article p{
+        text-align: center;
+        font-size: 5vw;
+        color: whitesmoke;
+}
+@media(max-width:414px){
+    header{
+        background-image: url(../img/background4.jpg);
+    }
+    .menu{
+        font-size:20px;
+        margin-top: 30px;
+        font-weight: 700;
+    }
+    #galeria{
+        margin-right: 25px;
+    }
+    header h1{
+        margin: 0 auto 0 auto;
+        font-size: 18vw;
+    }
+    header h2{
+        margin: 0 auto 0 auto;
+        font-size: 16vw;
+    }
+    header h3{
+        margin: 0 auto 0 auto;
+        font-size: 15vw;
+    }
+    article h1{
+        font-size: 9vw;
+    }
+    article p{
+        font-size: 6vw;
+        margin-top: 50px;
+    }
+    #img{
+        width: 70vw;
+    }
+    #button{
+        font-size: 5vw;
+    }
+    footer p{
+        font-size: 3vw;
+    }
+    #contact h1{
+        text-align: center;
+        font-size: 8vw;
+        color: rgba(199, 184, 165, 1);
+    }
+    .article p{
+        text-align: center;
+        font-size: 7vw;
+        color: whitesmoke;
+}
+@media(max-width:375px){
+    header h1{
+        font-size: 20vw;
+    }
+    header h2{
+        font-size: 18vw;
+    }
+    header h3{
+        font-size: 16vw;
+    }
+    .menu{
+        margin-right: 10px;
+    }
+    #galeria{
+        margin-right: 10px;
+    }
+    footer p{
+        font-size: 3.5vw;
+    }
+}
+@media(max-width:320px){
+    .menu{
+        font-size:15px;
+        margin-top: 30px;
+    }
+footer p{
+    font-size: 4vw;
+}
+}
